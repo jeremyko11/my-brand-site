@@ -1,4 +1,5 @@
 import Link from "next/link";
+import NewsletterForm from "./components/NewsletterForm";
 
 export default function Home() {
   return (
@@ -103,19 +104,7 @@ export default function Home() {
             <p className="text-zinc-400 mb-8">
               输入邮箱，每周日收到我的最新思考。不发垃圾邮件。
             </p>
-            <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-              <input
-                type="email"
-                placeholder="your@email.com"
-                className="flex-1 px-4 py-3 rounded-full bg-zinc-800 border border-zinc-700 text-white placeholder-zinc-500 focus:outline-none focus:border-blue-500"
-              />
-              <button
-                type="submit"
-                className="px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors"
-              >
-                订阅
-              </button>
-            </form>
+            <NewsletterForm />
           </div>
         </section>
       </main>
