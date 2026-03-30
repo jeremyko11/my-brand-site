@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "jeremyko - 思考者 · 创作者",
+  title: "正直清泉 - 思考者 · 创作者",
   description: "探索人性、底层生存、社会关系、婚姻、职场。记录真实，深度思考。",
 };
 

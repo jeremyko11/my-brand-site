@@ -7,7 +7,7 @@ export default function Home() {
       <header className="sticky top-0 z-50 border-b bg-white/80 backdrop-blur-sm">
         <div className="max-w-4xl mx-auto px-6 py-4 flex items-center justify-between">
           <Link href="/" className="text-xl font-bold tracking-tight">
-            jeremyko
+            正直清泉
           </Link>
           <nav className="flex gap-6 text-sm">
             <Link href="/articles" className="hover:text-blue-600 transition-colors">文章</Link>
@@ -123,11 +123,12 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t py-8 px-6">
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
-          <p>© 2024 jeremyko. 保留所有权利。</p>
+          <p>© 2024 正直清泉. 保留所有权利。</p>
           <div className="flex gap-6">
-            <a href="#" className="hover:text-zinc-900 transition-colors">Twitter</a>
-            <a href="#" className="hover:text-zinc-900 transition-colors">小红书</a>
-            <a href="#" className="hover:text-zinc-900 transition-colors">知乎</a>
+            <a href="https://www.douyin.com/user/MS4wLjABAAAA8WRqistYPpYcssJefHgefySAEJnyFvIaEP6oMf0wqpg" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 transition-colors">抖音</a>
+            <a href="https://xhslink.com/m/5jQO5THH0Hf" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 transition-colors">小红书</a>
+            <a href="https://v.kuaishou.com/nm9fAml1" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 transition-colors">快手</a>
+            <a href="https://profile.zjurl.cn/rogue/ugc/profile/?app=news_article&category_new=profile&module_name=Android_tt_url&share_did=MS4wLjACAAAAwBjzgAa12Pj-OYC3pn5dgoKqhJaKW8f-YeGrA_OCCpDf7WvHL4ZYkCimRV6ppsPW&share_token=3a9909e4-a821-4472-93ce-71ff52ac1542&share_uid=MS4wLjABAAAA3mRRBc7sVKTYwucYNzFH787lh4R3QswFvp5ucKW04zQ&timestamp=1774875080&tt_from=copy_link&upstream_biz=Android_url&user_id=105172160911&utm_campaign=client_share&utm_medium=toutiao_android&utm_source=copy_link" target="_blank" rel="noopener noreferrer" className="hover:text-zinc-900 transition-colors">今日头条</a>
           </div>
         </div>
       </footer>
